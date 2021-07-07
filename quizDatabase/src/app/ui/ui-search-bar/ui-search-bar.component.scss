@@ -1,0 +1,38 @@
+div {
+    display: inline-block;
+    height: 20vh;
+    width: 100vw;
+    label {
+        display: inline-block;
+        padding-top: 8vh;
+
+        &.text_box {
+            padding-left: 20vw;
+        }
+        &.button {
+            padding-left: 2vw;
+            padding-right: 20vw;
+        }
+        &.checkbox {
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            padding-left: 15vw;
+        }
+
+        input {
+            font-size: 150%;
+            height: 5vh;
+
+            &.text_box {
+                width: 40vw;
+            }
+            &.button {
+                width: 7vw;
+            }
+            &.checkbox {
+                height: 2vh;
+                font-size: 100%;
+            }
+        }
+    }
+}
